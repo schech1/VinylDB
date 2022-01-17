@@ -1,0 +1,122 @@
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Add new Vinyl</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+
+</head>
+
+
+    <div class="main-content">
+
+
+        <form class="form-basic" method="post" action="insert.php" enctype="multipart/form-data">
+
+            <div class="form-title-row">
+                <h1>Add new Vinyl</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Artist</span>
+                    <input type="text" name="artist">
+                </label>
+            </div>
+
+
+			<div class="form-row">
+                <label>
+                    <span>Album</span>
+                    <input type="text" name="album">
+                </label>
+            </div>
+	
+
+            <div class="form-row">
+                <label>
+                    <span>Genre</span>
+                    <input type="text" name="genre">
+                </label>
+            </div>
+
+
+            <div class="form-row">
+                <label>
+                    <span>Year</span>
+                    <input type="text" name="year">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>About</span>
+                    <input type="text" name="about">
+                </label>
+            </div>
+						
+            <div class="form-row">
+                <label>
+                    <span>Grading</span>
+                    <input type="text" name="grading">
+                </label>
+            </div>	
+
+
+            <div class="form-row">
+                <label>
+                    <span>Discogs</span>
+                    <input type="text" name="discogsurl">
+                </label>
+            </div>			
+			
+            <div class="form-row">
+                <label>
+                    <span>Price</span>
+                    <input type="text" name="price">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Photo Cover</span>
+                    <input type="file" name="uploadfile" id="uploadfile">
+                </label>
+            </div>		
+
+			 <div class="form-row">
+                <label>
+                    <span>Photo Vinyl</span>
+                    <input type="file" name="uploadfilev" id="uploadfilev">
+                </label>
+            </div>		
+			
+			
+            <div class="form-row">
+                <label>
+                    <span>Remarks</span>
+                    <textarea name="remarks"></textarea>
+                </label>
+            </div>
+
+
+
+           
+
+            <div class="form-row">
+                <button type="submit" name="submit">Submit Form</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
