@@ -9,9 +9,9 @@ a::after {
 
 <?php
 require 'vendor/autoload.php';
-$username = "u961868699_vinyltag";
-$password = "a5BqArM=";
-$database = "u961868699_vinyltag";
+$username = "";
+$password = "";
+$database = "vinyltag";
 
 
 
