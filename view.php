@@ -181,9 +181,9 @@ html{
 
 
 <?php
-$username = "u961868699_vinyltag";
-$password = "a5BqArM=";
-$database = "u961868699_vinyltag";
+$username = "";
+$password = "";
+$database = "vinyltag";
 
 $mysqli = new mysqli("sql151.main-hosting.eu", $username, $password, $database);
 
